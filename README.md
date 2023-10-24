@@ -6,6 +6,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Debes de utilizar esta api:
+https://randomuser.me/ API
+
+Lo que debes intentar conseguir es:
+
+- Fetch ~100 rows
+- Mostrarlo como una tabla
+- Las columnas pares hacerlas de un color y las impares de otro
+- La posibilidad de ordenar por country
+- Borrar un registro
+- Volver al estado inicial, hacer un reset
+
+Puedes buscar por google, stackOverflow y también debes preguntar todo lo que necesites al técnico.
+    
+Good luck!
+
 ### `npm start`
 
 Runs the app in the development mode.\

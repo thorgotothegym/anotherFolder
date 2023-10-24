@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+function UserList(props: any) {
+  return (
+    <table width={"100%"}>
+      <thead>
+        <tr>
+          <th>image</th>
+          <th>name</th>
+          <th>surname</th>
+          <th>country</th>
+          <th>delete</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Interview task</h1>
+      <button>Colored rows</button>
+      <button>Sort by country</button>
+      <button>Restore the init state</button>
+      <UserList />
     </div>
   );
 }
 
 export default App;
+    
